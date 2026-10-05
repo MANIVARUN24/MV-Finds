@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  
+  body {
+    background-color: #FAF8F5;
+    color: #1A1816;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    background-color: #E7E1D7;
+    color: #11100E;
+  }
+
+  /* Accessible outline */
+  :focus-visible {
+    outline: 2px solid #C27854;
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  /* Subtle image zoom container */
+  .img-zoom-wrapper {
+    overflow: hidden;
+  }
+
+  .img-zoom-wrapper img {
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .img-zoom-wrapper:hover img {
+    transform: scale(1.04);
+  }
+
+  /* Editorial typography line clamps */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Custom scrollbar for horizontal scrolling or filter lists */
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #F3EFEA;
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #D5CBBF;
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #BAADA0;
+  }
+}

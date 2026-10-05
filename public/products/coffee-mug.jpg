@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F5F2EB"/>
+  <ellipse cx="400" cy="340" rx="130" ry="60" fill="#E7E1D7" stroke="#D5CBBF" stroke-width="2"/>
+  <rect x="270" y="180" width="260" height="160" rx="24" fill="#E7E1D7" stroke="#D5CBBF" stroke-width="2"/>
+  <path d="M 290 340 Q 260 360 250 400 Q 248 420 300 430 Q 500 440 500 430 Q 552 420 550 400 Q 540 360 510 340" fill="#D5CBBF" stroke="#BAADA0" stroke-width="1.5"/>
+  <rect x="355" y="230" width="90" height="12" rx="4" fill="#BAADA0"/>
+  <rect x="365" y="252" width="70" height="10" rx="4" fill="#BAADA0"/>
+  <text x="400" y="560" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" fill="#9E8F80" text-anchor="middle" font-weight="500">Coffee Mug — Add image to /public/products/coffee-mug.jpg</text>
+</svg>

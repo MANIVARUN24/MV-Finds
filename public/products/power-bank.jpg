@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F5F2EB"/>
+  <rect x="260" y="140" width="280" height="200" rx="16" fill="#E7E1D7" stroke="#D5CBBF" stroke-width="2"/>
+  <rect x="300" y="340" width="200" height="20" rx="6" fill="#D5CBBF"/>
+  <rect x="330" y="370" width="140" height="16" rx="4" fill="#D5CBBF"/>
+  <circle cx="340" cy="180" r="14" fill="#BAADA0"/>
+  <circle cx="340" cy="220" r="14" fill="#BAADA0"/>
+  <circle cx="340" cy="260" r="14" fill="#BAADA0"/>
+  <rect x="366" y="173" width="120" height="12" rx="4" fill="#BAADA0"/>
+  <rect x="366" y="213" width="100" height="12" rx="4" fill="#BAADA0"/>
+  <rect x="366" y="253" width="110" height="12" rx="4" fill="#BAADA0"/>
+  <text x="400" y="560" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" fill="#9E8F80" text-anchor="middle" font-weight="500">Power Bank — Add image to /public/products/power-bank.jpg</text>
+</svg>
