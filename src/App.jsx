@@ -72,6 +72,7 @@ export default function App() {
               <Route path="/tech-finds" element={<Category forcedSlug="tech-finds" />} />
               <Route path="/study-desk-finds" element={<Category forcedSlug="study-desk-finds" />} />
               <Route path="/gift-ideas" element={<Category forcedSlug="gift-ideas" />} />
+              <Route path="/category/:slug" element={<Category />} />
 
               {/* Product Detail Route */}
               <Route path="/product/:slug" element={<ProductDetail />} />

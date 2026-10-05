@@ -3,7 +3,9 @@
  * Connects the React frontend to the Spring Boot REST API
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+const RAW_API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+// Strip trailing slash and trailing /api so endpoints starting with /api work uniformly
+const API_BASE_URL = RAW_API_URL.replace(/\/+$/, '').replace(/\/api$/, '');
 
 class ApiService {
   /**
